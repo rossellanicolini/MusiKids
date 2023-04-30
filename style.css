@@ -561,3 +561,14 @@ form {
     width: 560px;
     height: 315px;
 }
+
+
+
+
+
+@media all and (min-width: 400px) and (max-width: 736px) { 
+    .introduzionestrumenti {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+ }
