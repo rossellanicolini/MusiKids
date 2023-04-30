@@ -1,0 +1,563 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    padding: 0%;
+    background-color: #f2f2f2;
+    color: #f2f2f2 !important;
+    font-family: "Questrial", sans-serif;
+}
+
+.nav-link {
+    color: #262621;
+    transition: color .15s ease-in-out;
+    transition: background-color .15s ease-in-out;
+}
+
+.nav-link:hover {
+    background-color: #9da658;
+    color: #f2f2f2 !important;
+    border-radius: 0.3rem;
+}
+
+.dropdown-menu {
+    background-color: #f2f2f2;
+    transition: color .15s ease-in-out;
+    transition: background-color .15s ease-in-out;
+}
+
+.dropdown-item:hover {
+    background-color: #9da658;
+    color: #f2f2f2;
+}
+
+.dropdown-item {
+    color: #262621;
+}
+
+.navbar-brand {
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-right: 0%;
+}
+
+#immaginecentrale {
+    background-image: url(immagini/xilofonobimba3.jpg);
+    background-size: cover !important;
+    background-attachment: fixed;
+    align-self: center;
+    opacity: 0.75;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#citazione {
+    color: #f2f2f2;
+    padding: 220px;
+    font-family: "Questrial", sans-serif;
+    font-size: 18pt;
+    opacity: 1 !important;
+    margin-bottom: -16px;
+}
+
+
+.sarebbeunh1 {
+    font-family: "Questrial", sans-serif;
+    color: #262621;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 28pt;
+    margin: 0%;
+    text-align: center;
+}
+
+
+.sottotitoletto {
+    text-align: center;
+    font-size: 20pt;
+    font-family: "Questrial", sans-serif;
+    color: #262621;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+
+section {
+    background-color:#9da658;
+    padding-inline-start: 0%;
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+}
+
+
+footer {
+    margin: 0% !important;
+    border: 0% !important;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #262621;
+    padding-top: 25px;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.letterina {
+    font-family: "Alegreya", serif;
+    margin: 0%;
+    font-size: bold;
+    line-height: 2 !important;
+    font-size: 15pt;
+    padding: 10px;
+    text-align: left;
+    color: #262621;
+}
+
+.sviluppi {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#9da658;
+    padding-inline-start: 0%;
+    margin: 0%;
+    border: 0%;
+}
+
+.hduesviluppi {
+    text-align: center;
+    color: #f2f2f2;
+    font-family: "Questrial", sans-serif !important;
+    padding-top: 25px !important;
+    padding-bottom: 20px;
+    font-size: 28pt !important;
+    margin: 0%;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.card {
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: #f2f2f2;
+    margin-top: 25px;
+}
+
+.card-title {
+    color: #9da658;
+    font-family: "Questrial", sans-serif;
+    font-size: 15pt;
+}
+
+.card-text {
+    color: #262621;
+    font-family: "Alegreya", serif;
+    margin-bottom: 0.75rem;
+    font-size: 15pt;
+}
+
+.container {
+    padding: 0%;
+    align-items: center;
+    text-align: center;
+    line-height: 2;
+}
+
+.btn {
+    font-family: "Questrial", sans-serif !important;
+    background-color: #262621;
+    border-color: #262621;
+    border-radius: 0.3rem;
+}
+
+.btn:hover {
+    background-color: #9da658;
+    border-color:#9da658;
+}
+
+.partecentrale {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #f2f2f2;
+    color:#9da658;
+}
+
+.linksocial {
+    color: #262621;
+    padding: 0.5%;
+    transition: color .15s ease-in-out;
+    transition: background-color .15s ease-in-out;
+    font-size: 20pt;
+}
+
+.linksocial:hover {
+    background-color: #9da658;
+    color: #f2f2f2;
+    border-radius: 0.3rem;
+}
+
+.chisiamoedocumentazione {
+    color: #262621;
+    font-family: "Questrial", sans-serif;
+}
+
+.footerino {
+    font-family: "Questrial", sans-serif !important;
+    margin: 0%;
+    font-size: 12pt;
+    padding: 15px;
+    color: #262621;
+}
+
+.footerino:hover {
+    color: #9da658;
+    text-decoration: none;
+}
+
+.copyright {
+    font-size: 10pt;
+    font-family: "Questrial", sans-serif;
+    line-height: 2;
+    margin: 0%;
+    color: #262621;
+}
+
+
+
+
+.breadcrumb {
+    margin: 0%;
+    background-color: #f2f2f2;
+    font-family: "Questrial", sans-serif;
+    color: #262621;
+    font-size: 12pt;
+}
+
+.breadcrumbs {
+    margin-bottom: 0%;
+}
+
+.breadcrumbsconlink {
+    color: #262621;
+}
+
+.breadcrumbsconlink:hover {
+    text-decoration: none;
+    color: #9da658;
+}
+
+.introduzionestrumenti {
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 15pt;
+    font-family: "Alegreya", serif;
+    line-height: 2;
+    font-size: bold;
+    color: #262621;
+}
+
+ .introstrumenti {
+    padding: 10px;
+}
+
+.parteintroduttivastrumenti {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f2f2f2;
+}
+
+.sarebbeunh2 {
+    font-family: "Questrial", sans-serif;
+    color: #262621;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 28pt;
+    margin: 0%;
+    text-align: center;
+}
+
+.sarebbeunh3 {
+    font-family: "Questrial", sans-serif;
+    color: #262621;
+    text-align: center;
+    font-size: 20pt;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.strumentini {
+    font-family: "Alegreya", serif;
+    margin: 0%;
+    font-size: bold;
+    line-height: 2 !important;
+    font-size: 15pt;
+    padding: 10px;
+    text-align: left;
+    color: #262621;
+}
+
+#immaginecentralestrumenti {
+    background-image: url(Strumenti/coverbimbi.jpg);
+    background-size: cover !important;
+    background-attachment: fixed;
+    align-self: center;
+    opacity: 0.75;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#citazionestrumenti {
+    color: #f2f2f2;
+    padding: 220px;
+    font-family: "Questrial", sans-serif;
+    font-size: 18pt;
+    opacity: 1 !important;
+    margin-bottom: -16px;
+}
+
+
+
+
+
+.infosviluppi {
+    text-align: center;
+    font-size: 12pt;
+    color:#262621;
+    font-family: "Questrial", sans-serif;
+    margin: 0%;
+}
+
+.infosviluppi:hover {
+    color: #9da658;
+    text-decoration: none;
+}
+
+
+
+#immaginecentralespartiti {
+    background-image: url(immagini/spartitocover.jpg);
+    background-size: cover !important;
+    background-attachment: fixed;
+    align-self: center;
+    opacity: 0.75;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+
+
+.spartito {
+    color: #262621;
+    font-size: 15pt;
+    font-family: "Alegreya", serif;
+}
+
+.spartitini {
+    color: #262621;
+    font-size: 15pt;
+    font-family: "Alegreya", serif;
+}
+
+.spartito:hover {
+    color: #9da658;
+    text-decoration: none;
+}
+
+
+
+
+
+
+#immaginecentraleplaylist {
+    background-image: url(playlist/playlistcover.jpg);
+    background-size: cover !important;
+    background-attachment: fixed;
+    align-self: center;
+    opacity: 0.75;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+
+
+
+.benefici {
+    text-decoration: none;
+    color: #9da658;
+    padding: 0.1px;
+}
+
+.benefici:hover {
+    color: #f2f2f2;
+    background-color: #9da658;
+    text-decoration: none;
+}
+
+
+
+
+
+
+form {
+    padding-top: 0px;
+    padding-bottom: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+
+.giochipiano {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 21%;
+}
+
+.immagininegiochi {
+    height: 100px;
+    width: auto;
+}
+
+.intestazionegioco {
+    padding: 0%;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.introgioco {
+    margin:0%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+  .grid-item {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+.titoligiochi {
+    font-family: "Questrial", sans-serif;
+    color: #262621;
+}
+
+.titoligiochi:hover {
+    text-decoration: none;
+    color: #9da658;
+
+}
+
+.giochimusicali {
+    background-color: #f2f2f2;
+}
+
+.carddegliultimi5giochi {
+    padding-bottom: 0%;
+}
+
+.containergiochini {
+    margin-bottom: 0%;
+}
+
+
+
+.introduzionedocumentazione {
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sarebbeunh4 {
+    font-family: "Questrial", sans-serif;
+    text-align: center;
+    margin: 0%;
+}
+
+
+
+
+.sfondogiochi {
+    background-color: #f2f2f2;
+}
+
+.cardquiz {
+        padding: 30px 0px 30px 0px;
+        margin: 0px 200px 30px 200px;
+        background-color: white;
+        text-align: center;
+        border-radius: 10px;
+}
+
+.card-bodyquiz {
+    color: #262621;
+    font-family: "Questrial",sans-serif;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.form-check-label {
+    color: #262621;
+    font-family: "Questrial", sans-serif;
+    font-size: 18px;
+}
+
+.rispostineimmagini {
+    height: 100px;
+    width: auto;
+}
+
+.scoprilerisposte {
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.suoninumerati {
+    font-size: 25px;
+}
+
+
+
+
+.benchmarkingecosivia {
+    padding-bottom: 20px;
+}
+
+
+
+
+.videonostrodiyoutube {
+    text-align: center;
+}
+
+#videodipresentazione {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 560px;
+    height: 315px;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="it">
+<html>
+<head>
+    <title>MusiKids</title>
+    <meta charset="utf-8">
+    <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&family=Questrial&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/aa0faf91c6.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="immagini/faviconnuovologo.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    <body>
+        
+<!--INTESTAZIONE/HEADER USANDO BOOTSTRAP NAVBAR-->
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html"><img src="immagini/MusiKidsNuovoLogo.jpg" alt="Logo Homepage"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="giochi.html">GIOCHI MUSICALI <i class="fa-solid fa-gamepad"></i><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            I MIEI PRIMI SPARTITI <i class="fa-solid fa-music"></i></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="spartiti.html#bookmark1">Pianoforte</a>
+              <a class="dropdown-item" href="spartiti.html#bookmark2">Chitarra</a>
+              <a class="dropdown-item" href="spartiti.html#bookmark3">Violino</a>
+              <a class="dropdown-item" href="spartiti.html#bookmark4">Flauto Traverso</a>
+              </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            QUALE STRUMENTO SCEGLIERE? <i class="fa-solid fa-guitar"></i></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="strumenti.html#bookmark6">Strumenti a fiato</a>
+              <a class="dropdown-item" href="strumenti.html#bookmark7">Strumenti a corda</a>
+              <a class="dropdown-item" href="strumenti.html#bookmark8">Strumenti a percussione</a>
+              <a class="dropdown-item" href="strumenti.html#bookmark9">Strumenti a tastiera</a>
+            </div>
+        <li class="nav-item">
+          <a class="nav-link" href="playlist.html">LE NOSTRE PLAYLIST <i class="fa-brands fa-youtube"></i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!--BREADCRUMB-->
+<section class="breadcrumb">
+	<p class="breadcrumbs"><a class="breadcrumbsconlink" href="index.html">Home</a> > Sviluppo motorio</p>
+</section>
+
+<!--PARTE INTRODUTTIVA SVILUPPO MOTORIO-->
+<section class="parteintroduttivastrumenti">
+    <h2 class="sarebbeunh1">SVILUPPO MOTORIO</h2>
+</section>
+
+<!--PARTE ABILITà MOTORIE E DI COORDINAMENTO-->
+<h3 class="sarebbeunh2">Migliora le abilità motorie e di coordinamento</h3>
+<div class="container">
+    <div class="row">
+      <div class="col-6">
+         <p class="strumentini">La <b>corteccia motoria si rafforza</b> attraverso l'esercitazione con strumenti musicali: è questo che dimostra uno studio del 2013 pubblicato nel Journal of Neuroscience, che prendeva come campione persone che avevano cominciato a studiare uno strumento prima dei 7 anni.</p>
+         <a class="infosviluppi" target="_blank" href="https://neurosciencenews.com/early-music-lessons-boost-brain-development/">Clicca qui se vuoi saperne di più</a>
+      </div>
+      <div class="col-6">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="immagini/bimbaginnasta.jpg" class="d-block w-100" alt="bambina ginnasta"/>
+              </div>
+              <div class="carousel-item">
+                <img src="immagini/bimbedanza.jpg" class="d-block w-100" alt="bimbe fanno danza"/>
+              </div>
+              <div class="carousel-item">
+                <img src="immagini/bimbibreakdance.jpg" class="d-block w-100" alt="bambini fanno breakdance"/>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <!--FOOTER -->
+  <footer>
+    <p class="social">
+      <a class="linksocial" target="_blank" href="https://www.facebook.com/profile.php?id=100091755575011"><i class="fa-brands fa-facebook"></i></a>
+      <a class="linksocial" target="_blank" href="https://www.instagram.com/musikidsofficial/"><i class="fa-brands fa-instagram"></i></a>
+      <a class="linksocial" target="_blank" href="https://www.youtube.com/@Musikids-lg8ms/featured"><i class="fa-brands fa-youtube"></i></a>
+    </p>
+    <p class="chisiamoedocumentazione">
+      <a class="footerino" href="chisiamo.html">Chi siamo</a>
+      <a class="footerino" href="documentazione.html">Documentazione</a>
+    </p>
+    <p class="richiamodellanavbar">
+      <a class="footerino" href="giochi.html">Giochi Musicali</a>
+      <a class="footerino" href="spartiti.html">I miei primi spartiti</a>
+      <a class="footerino" href="strumenti.html">Quale strumento scegliere?</a>
+      <a class="footerino" href="playlist.html">Le nostre playlist</a>
+    </p>
+    <p class="copyright">© Copyright 2023 - MusiKids</p>
+</footer>
+
+</body>
+</html>
